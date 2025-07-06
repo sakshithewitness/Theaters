@@ -1,11 +1,12 @@
 
 # 🎬 Theaters - Movie Ticket Booking System
+---
 
 A **Java-based console application** that simulates a  movie ticket booking system in Mumbai. Built using **Object-Oriented Programming (OOP)** principles, it offers a realistic cinema experience including show schedules, seating maps, ticket pricing in INR, and a smooth booking/cancellation flow.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 🎟️ Book movie tickets with seat selection  
 - 🕒 Shows scheduled across **5 screens** with **5 daily time slots**  
@@ -32,17 +33,10 @@ A **Java-based console application** that simulates a  movie ticket booking syst
 
 ## 🧪 How to Run
 
-### 🔁 Clone the Repository
-
-
-git clone https://github.com/YOUR_USERNAME/PVR_Theaters.git
-cd Theaters
-
-
 ### 💻 Run via IntelliJ IDEA
 
 1. Open IntelliJ IDEA
-2. Click **Open** > Navigate to `PVR_Theaters` folder
+2. Click **Open** > Navigate to `Theaters` folder
 3. Right-click on `BookingAgent.java` → Run
 
 ### 💡 OR Compile via Terminal
@@ -54,11 +48,7 @@ java BookingAgent
 
 ---
 
-## 📸 Screenshots
 
-> *(Optional: Add screenshots here of Main Menu, Seat Map, Booking Summary, and Ticket Confirmation)*
-
----
 
 ## 🤝 Contributing
 
