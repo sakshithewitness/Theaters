@@ -30,26 +30,6 @@ A **Java-based console application** that simulates a  movie ticket booking syst
 - **IntelliJ IDEA** or any Java IDE
 
 
-
-## 📁 Folder Structure
-
-
-
-PVR\_Theaters/
-│
-├── BookingAgent.java          # Main application class
-├── README.md                  # Project documentation
-│
-└── models/                    # Core domain classes
-├── Movie.java             # Represents a movie
-├── Theater.java           # Theater details and schedules
-├── Screen.java            # Individual screen with seat map
-├── Ticket.java            # Ticket info and formatting
-├── Showtime.java          # Show timing logic
-
-
----
-
 ## 🧪 How to Run
 
 ### 🔁 Clone the Repository
