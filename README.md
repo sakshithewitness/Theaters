@@ -1,62 +1,104 @@
-# Theaters
-A Java-based console application to simulate a movie ticket booking system.
+
 # 🎬 Theaters - Movie Ticket Booking System
 
-A Java-based console application that mimics the experience of booking movie tickets in theaters in Mumbai. Built with object-oriented design, it includes movie scheduling, seating maps, ticket pricing in ₹, and cancellation/refund flow.
+A **Java-based console application** that simulates a  movie ticket booking system in Mumbai. Built using **Object-Oriented Programming (OOP)** principles, it offers a realistic cinema experience including show schedules, seating maps, ticket pricing in INR, and a smooth booking/cancellation flow.
 
 ---
 
 ## 🚀 Features
 
-- 🎟️ Book movie tickets with seat selection
-- 🕒 Shows scheduled across 5 screens and 5 daily time slots
-- 🛋️ Realistic seat map (A-D rows, 10 seats per row)
-- 💵 Prices shown in INR (₹1050/ticket)
-- 📍 Mumbai theater locations:
-  - PVR Phoenix Palladium, Lower Parel
-  - INOX R-City Mall, Ghatkopar
-  - Carnival Cinemas IMAX, Wadala
-  - Cinepolis Viviana Mall, Thane
-  - MovieTime Goregaon West
-- ❌ Cancel tickets with refund
-- 🧾 View all your booked tickets
+- 🎟️ Book movie tickets with seat selection  
+- 🕒 Shows scheduled across **5 screens** with **5 daily time slots**  
+- 🛋️ Realistic seat map layout (Rows A-D, Seats 01-10)  
+- 💵 Prices displayed in **Indian Rupees** (₹1050/ticket)  
+- 📍 Theaters located in **Mumbai**:
+  - PVR Phoenix Palladium, Lower Parel  
+  - INOX R-City Mall, Ghatkopar  
+  - Carnival Cinemas IMAX, Wadala  
+  - Cinepolis Viviana Mall, Thane  
+  - MovieTime Goregaon West  
+- ❌ Cancel tickets and receive a refund  
+- 🧾 View all booked tickets  
 
 ---
 
-##  Tech Stack
+## 🛠️ Tech Stack
 
-- Java 21 (via Eclipse Adoptium)
-- Console-based UI (no GUI)
-- Object-Oriented Programming (OOP)
-- IntelliJ IDEA or any Java IDE
-
----
-
-##  Folder Structure
--PVR_Theaters/
--├── BookingAgent.java
--├── models/
--│ ├── Movie.java
--│ ├── Theater.java
--│ ├── Screen.java
--│ ├── Seat.java
--│ ├── Ticket.java
--│ └── Showtime.java
--├── README.md
+- **Java 21** (Eclipse Adoptium)
+- **Console-based UI** (No GUI)
+- **Object-Oriented Programming**
+- **IntelliJ IDEA** or any Java IDE
 
 
----
 
-##  How to Run
+## 📁 Folder Structure
 
-1. Clone the repo:
-   git clone https://github.com/YOUR_USERNAME/PVR_Theaters.git
-   cd PVR_Theaters
 
-2.Open in IntelliJ or compile via terminal:
-  open:
-  javac BookingAgent.java
-  java BookingAgent
+
+PVR\_Theaters/
+│
+├── BookingAgent.java          # Main application class
+├── README.md                  # Project documentation
+│
+└── models/                    # Core domain classes
+├── Movie.java             # Represents a movie
+├── Theater.java           # Theater details and schedules
+├── Screen.java            # Individual screen with seat map
+├── Ticket.java            # Ticket info and formatting
+├── Showtime.java          # Show timing logic
+
 
 ---
 
+## 🧪 How to Run
+
+### 🔁 Clone the Repository
+
+
+git clone https://github.com/YOUR_USERNAME/PVR_Theaters.git
+cd Theaters
+
+
+### 💻 Run via IntelliJ IDEA
+
+1. Open IntelliJ IDEA
+2. Click **Open** > Navigate to `PVR_Theaters` folder
+3. Right-click on `BookingAgent.java` → Run
+
+### 💡 OR Compile via Terminal
+
+```bash
+javac BookingAgent.java
+java BookingAgent
+```
+
+---
+
+## 📸 Screenshots
+
+> *(Optional: Add screenshots here of Main Menu, Seat Map, Booking Summary, and Ticket Confirmation)*
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/YourFeature`
+3. Make your changes and commit: `git commit -m 'Added new feature'`
+4. Push: `git push origin feature/YourFeature`
+5. Submit a Pull Request
+
+---
+
+## 📜 License
+
+This project is open-source and licensed under the **MIT License**.
+
+---
+
+## ✨ Author
+
+Made by **Sakshi Agnihotri**
+[GitHub](https://github.com/YOUR_USERNAME) • [LinkedIn](#)
